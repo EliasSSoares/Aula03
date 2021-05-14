@@ -14,7 +14,7 @@ public class OperadorE {
 		//Aqui é preciso criar um if que verifique as duas condições para o login ser bem sucedido
 		
 	
-		if (usuario.equals("administrador") && senha.equalsIgnoreCase("123") ) {
+		if (usuario.equalsIgnoreCase("administrador") && senha.equals("123") ) {
 			
 			System.out.println("Login realizados com sucesso");
 			
